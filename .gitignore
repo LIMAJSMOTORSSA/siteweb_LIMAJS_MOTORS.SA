@@ -1,0 +1,33 @@
+# Ignorer les fichiers Python compilés
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignorer les fichiers de configuration de l'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers de l'environnement virtuel
+env/
+venv/
+myenv/
+.env
+
+# Ignorer les fichiers de base de données
+*.sqlite3
+
+# Ignorer les fichiers de migration
+*/migrations/*
+
+# Ignorer les fichiers temporaires
+*.log
+*.tmp
+*.bak
+
+# Ignorer le dossier des fichiers statiques
+# Commenter la ligne suivante pour inclure les fichiers statiques
+# staticfiles/
+ 
+
+# Vous pouvez également ignorer d'autres fichiers spécifiques selon vos besoins.

@@ -1,0 +1,6 @@
+Django
+tqdm
+colorama
+gunicorn
+whitenoise
+django-compressor
